@@ -134,7 +134,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\External\glad\glad.c" />
+    <ClCompile Include="ImageHelper.cpp" />
+    <ClCompile Include="ParticleBuffer.cpp" />
     <ClCompile Include="Sand Simulation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ParticleBuffer.h" />
+    <ClInclude Include="RenderTexture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
